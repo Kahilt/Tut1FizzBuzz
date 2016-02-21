@@ -12,6 +12,8 @@ int main()
 			count += 1;
 		if (num % 5 == 0)
 			count += 2;
+		if (num % 7 == 0)
+			count += 5;
 
 		cout << num << endl; //Prints the number
 
@@ -20,7 +22,9 @@ int main()
 		if (count == 2)
 			cout << "Buzz" << endl;
 		if (count == 3)
-			cout << "Fizz Buzz" << endl; //Decides which label the number will recieve
+			cout << "Fizz Buzz" << endl;
+		if (count == 5) 
+			cout << "Woof" << endl; //Decides which label the number will recieve
 		num += 1; // Number is incremented
 		count = 0;// Count is reset to 0
 	}
