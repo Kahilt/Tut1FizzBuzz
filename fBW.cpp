@@ -27,6 +27,7 @@ int main()
 			cout << "Woof" << endl; //Decides which label the number will recieve
 		num += 1; // Number is incremented
 		count = 0;// Count is reset to 0
+
 	}
 
 }
